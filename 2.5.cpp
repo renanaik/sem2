@@ -49,14 +49,13 @@ public:
     }
     void displayDetails()
     {
-        cout << "\n----------------------------\n";
+        cout << "----------------------------\n";
         cout << "Loan ID: " << loanID << endl;
         cout << "Applicant Name: " << name << endl;
         cout << "Loan Amount: " << amount << endl;
         cout << "Interest Rate: " << rate << "%" << endl;
         cout << "Loan Term: " << term << " months" << endl;
         cout << "EMI: " << calculateEMI() << " per month" << endl;
-        cout << "----------------------------\n";
     }
 };
 int main()
