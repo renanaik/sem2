@@ -4,7 +4,7 @@
 using namespace std;
 int iterrative(int a[],int n)
 {
-    int sum;
+    int sum=0;
     for (int i=0; i<n; i++)
     {
         sum=sum+a[i];
