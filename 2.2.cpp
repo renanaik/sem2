@@ -42,7 +42,7 @@ public:
         cout << "Name: " << name << endl;
         cout << "Marks: " << marks[0] << ", " << marks[1] << ", " << marks[2] << endl;
         cout << "Average Marks: " << calculateAverage() << endl;
-        cout << "-----------------------------------" << endl;
+        cout << "    " << endl;
     }
 };
 int main()
